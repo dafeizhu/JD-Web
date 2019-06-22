@@ -1,0 +1,476 @@
+/*版心公共类*/
+
+@font-face {
+	font-family: 'icomoon';
+	src: url('../fonts/icomoon.eot?omwujr');
+	src: url('../fonts/icomoon.eot?omwujr#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?omwujr') format('truetype'), url('../fonts/icomoon.woff?omwujr') format('woff'), url('../fonts/icomoon.svg?omwujr#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+input,
+button {
+	border: 0;
+	outline: none;
+	/*取消轮廓边框*/
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #999;
+}
+
+a:hover {
+	color: #c81623;
+}
+
+.w {
+	width: 1190px;
+	margin: 0 auto;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.f10 {
+	color: #f10215;
+	!important
+}
+
+body {
+	background-color: #f0f3ef;
+}
+
+
+/*快速导航栏start*/
+
+.shortcut {
+	background-color: #e3e4e5;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: #ddd;
+	font-size: 12px;
+}
+
+.shortcut li {
+	float: left;
+}
+
+.city {
+	margin-left: 200px;
+}
+
+.space {
+	width: 1px;
+	height: 10px;
+	background-color: #ccc;
+	margin: 10px 12px 0;
+}
+
+.shortcut i {
+	font-family: "icomoon";
+	font-style: normal;
+}
+
+.moblie {
+	position: relative;
+}
+
+.moblie img {
+	position: absolute;
+	top: 23px;
+	left: -10px;
+	border: 1px solid #ccc;
+	padding: 3px;
+}
+
+
+/*快速导航栏end*/
+
+
+/*中间大部分start*/
+
+.middle {
+	height: 140px;
+	position: relative;
+}
+
+.logo {
+	box-shadow: 0 -10px 10px rgba(0, 0, 0, .3);
+	position: absolute;
+	top: -30px;
+	left: 0;
+}
+
+.logo a {
+	display: block;
+	width: 190px;
+	height: 170px;
+	background: url(../img/logo_02.png) no-repeat;
+}
+
+
+/*搜索栏*/
+
+.form {
+	width: 550px;
+	height: 35px;
+	position: absolute;
+	top: 25px;
+	left: 320px;
+}
+
+.form input {
+	width: 495px;
+	height: 33px;
+	border: 1px solid #F10215;
+	float: left;
+	font-size: 14px;
+	padding-left: 3px;
+}
+
+.form button {
+	width: 50px;
+	height: 35px;
+	background-color: #F10215;
+	float: left;
+}
+
+.form button i {
+	font-family: "icomoon";
+	font-style: normal;
+	color: #fff;
+}
+
+
+/*购物车*/
+
+.shopcar {
+	width: 190px;
+	height: 33px;
+	line-height: 33px;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 25px;
+	right: 96px;
+	text-align: center;
+}
+
+.shopcar i {
+	font-family: "icomoon";
+	font-style: normal;
+	color: #F10215;
+	margin-right: 3px;
+}
+
+.shopcar a {
+	font-size: 14px;
+}
+
+.shopcar span {
+	border-radius: 50%;
+	display: block;
+	height: 15px;
+	width: 15px;
+	line-height: 15px;
+	position: absolute;
+	top: 6px;
+	right: 32px;
+	background-color: #F10215;
+	color: #fff;
+}
+
+
+/*关键词*/
+
+.hotwords {
+	position: absolute;
+	top: 60px;
+	left: 320px;
+}
+
+.hotwords a {
+	font-size: 14px;
+	margin-right: 3px;
+}
+
+
+/*小导航栏*/
+
+.navitems {
+	position: absolute;
+	bottom: 0;
+	left: 200px;
+	height: 36px;
+	line-height: 36px;
+	width: 780px;
+}
+
+.navitems li {
+	float: left;
+	margin-left: 24px;
+}
+
+.navitems li a {
+	font-size: 16px;
+	font-weight: 700;
+	color: #555;
+}
+
+.navitems li a:hover {
+	color: #F10215;
+}
+
+.navitems .space {
+	margin: 15px -12px 0 12px;
+}
+
+
+/*中间大部分end*/
+
+
+/*页面底部分start*/
+
+footer {
+	margin-top: 20px;
+	height: 550px;
+	background-color: #f0f3ef;
+}
+
+
+/*服务模块*/
+
+.service {
+	height: 90px;
+	border-bottom: 1px solid #dedede;
+	overflow: hidden;
+}
+
+.service ul li {
+	padding: 30px 0;
+	position: relative;
+	float: left;
+	width: 297px;
+	height: 43px;
+	line-height: 43px;
+}
+
+.service li h5 {
+	position: absolute;
+	top: 32px;
+	left: 43px;
+	width: 36px;
+	height: 42px;
+	background: url(../img/多.png) no-repeat;
+	text-indent: -9999px;
+}
+
+.service li:nth-child(2) h5 {
+	background: url(../img/快.png) no-repeat;
+}
+
+.service li:nth-child(3) h5 {
+	background: url(../img/好.png) no-repeat;
+}
+
+.service li:nth-child(4) h5 {
+	background: url(../img/省.png) no-repeat;
+}
+
+.service li p {
+	margin-left: 84px;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+
+/*帮助模块*/
+
+.help {
+	height: 186px;
+	border-bottom: 1px solid #dedede;
+	padding-top: 24px;
+}
+
+.help dl {
+	float: left;
+	font-size: 14px;
+	width: 197px;
+}
+
+.help dl dt {
+	font-weight: 700;
+	height: 30px;
+}
+
+.help dl dd {
+	height: 24px;
+}
+
+.help dd a,
+.coverage a,
+.help dl dt,
+.coverage,
+.copyright-top p,
+.copyright-top p a {
+	color: #666;
+}
+
+.help dd a:hover,
+.coverage a:hover,
+.copyright-top p a:hover {
+	color: #F10215;
+}
+
+
+/*范围*/
+
+.coverage {
+	font-size: 12px;
+	width: 200px;
+	height: 150px;
+	background: url(../img/sprite.footer.png);
+}
+
+.coverage h5 {
+	font-size: 14px;
+	font-weight: 700;
+	width: 180px;
+	margin-left: 35px;
+}
+
+.coverage p {
+	margin-top: 20px;
+	width: 180px;
+	line-height: 18px;
+}
+
+.coverage a {
+	display: block;
+	margin-top: 5px;
+	float: right;
+	margin-right: 24px;
+}
+
+
+/*版权模块*/
+
+.copyright {
+	padding-top: 20px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.copyright span {
+	font-size: 12px;
+	margin: 0 10px;
+}
+
+.copyright-bottom {
+	margin-top: 20px;
+	color: #a499af;
+}
+
+.copyright-bottom p {
+	line-height: 20px;
+}
+
+.country {
+	position: relative;
+}
+
+.country span {
+	margin: 0 30px 0 10px;
+}
+
+.country h5 {
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	top: 3px;
+	left: 280px;
+	background: url(../img/sprite_03.png) no-repeat;
+	text-indent: -9999px;
+}
+
+.country h4 {
+	background: url(../img/sprite_05.png) no-repeat;
+	position: absolute;
+	width: 15px;
+	height: 10px;
+	top: 5px;
+	left: 384px;
+	text-indent: -9999px;
+}
+
+.country h3 {
+	background: url(../img/sprite_07.png) no-repeat;
+	position: absolute;
+	width: 15px;
+	height: 10px;
+	top: 5px;
+	text-indent: -9999px;
+	left: 506px;
+}
+
+.country h2 {
+	background: url(../img/sprite_09.png) no-repeat;
+	position: absolute;
+	width: 15px;
+	height: 10px;
+	top: 5px;
+	text-indent: -9999px;
+	left: 636px;
+}
+
+.country h1 {
+	background: url(../img/sprite_17.png) no-repeat;
+	position: absolute;
+	width: 15px;
+	height: 10px;
+	top: 5px;
+	text-indent: -9999px;
+	left: 770px;
+}
+
+.foot-icon a {
+	margin: 40px 4px 0;
+	display: inline-block;
+	text-align: center;
+	width: 103px;
+	height: 32px;
+	background: url(../img/sprite.footer.png) no-repeat -205px 0;
+}
+
+.foot-icon a:nth-child(2) {
+	background-position: -205px -37px;
+}
+
+.foot-icon a:nth-child(3) {
+	background-position: -205px -73px;
+}
+
+.foot-icon a:nth-child(4) {
+	background-position: -205px -110px;
+}
+
+.foot-icon a:nth-child(5) {
+	background-position: -205px -147px;
+}
+
+
+/*页面底部分end*/
